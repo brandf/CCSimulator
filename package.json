@@ -1,0 +1,30 @@
+{
+  "name": "ccsimulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "vitest"
+  },
+  "keywords": [
+    "Keyboard",
+    "Characorder",
+    "Master Forge",
+    "M4G",
+    "CC1",
+    "CC2"
+  ],
+  "author": "Brandon Furtwangler",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.4",
+    "commander": "^13.1.0"
+  }
+}
